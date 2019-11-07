@@ -1,0 +1,56 @@
+body {
+  background-color: green;
+}
+
+.vertical-wrapper {
+  width: auto;
+  height: 500px;
+  display: flex;
+}
+
+.vertical-ranges-wrapper {
+  width: 23px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+}
+
+.vertical-ranges-wrapper span {
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.vertical-custom-slider-wrapper {
+  width: 25px;
+  height: 500px;
+  background-color: wheat;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.vertical-myslider {
+  width: 25px;
+  height: 0%;
+  background-color: #24bdc9;
+  border-radius: 10px;
+  transition: height 0.7s;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: visible;
+  z-index: 1;
+  position: absolute;
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  background-color: yellow;
+  border-radius: 100%;
+  display: none;
+  z-index: 2;
+}
